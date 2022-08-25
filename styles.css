@@ -5,7 +5,7 @@ ul {
 }
 .topRightLinks {
     display: flex;
-    gap: 15px;
+    gap: 40px;
 }
 a{
     text-decoration: none;
@@ -44,7 +44,7 @@ header {
     transition: all 0.2s ease;
 }
 .sectionOne {
-    background-color: black;
+    background-color: #1f2937;
     display: flex;
     flex-direction: row;
     align-items: center;  
@@ -87,6 +87,9 @@ header {
     gap: 50px;
     text-align: center;
 }
+.kategorije p {
+    margin-top: 20px;
+}
 .kategorije img { 
     top:-50px; 
     left:-35px; 
@@ -109,13 +112,39 @@ header {
     color: #1f2937;
 }
 .sectionTwo img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 20%;
 }
 .sectionThree {
-    background-color: blueviolet;
-    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.sponzori {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.sectionThree img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+.sectionThree h1{
+    padding-top: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.sectionThree p {
+    margin-top: 40px;
 }
 .sectionFour {
     background-color: red;
