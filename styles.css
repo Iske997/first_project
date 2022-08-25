@@ -96,13 +96,13 @@ header {
     display:block; 
     z-index:999; 
     cursor: pointer; 
-    -webkit-transition-property: all; 
+    /* -webkit-transition-property: all; 
     -webkit-transition-duration: 0.3s; 
-    -webkit-transition-timing-function: ease; 
+    -webkit-transition-timing-function: ease; */
     } 
     
     /*change the number below to scale to the appropriate size*/ 
-    .kategorije img:hover { 
+.kategorije img:hover { 
     transform: scale(2); 
     }
 .sectionTwo h1{
@@ -147,7 +147,22 @@ header {
     margin-top: 40px;
 }
 .sectionFour {
-    background-color: red;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3882f6;
+}
+.signup h4 p{
+    color: #f9faf8;
     
 }
 .main {
